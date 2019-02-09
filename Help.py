@@ -3,9 +3,8 @@ from Command import Command
 from GlobalVariables import *
 
 class Help(Command):
-
     def execute(self):
-        print("List of possible commands: \n")
+        print("List of possible commands:")
         for i in range(0, len(listOfCommands)):
-            print("%s\n" %(listOfCommands[i]))
+            print("%s" %(listOfCommands[i]))
 

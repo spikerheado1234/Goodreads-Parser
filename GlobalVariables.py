@@ -1,2 +1,2 @@
 goodReadsUrl = "https://goodreads.com"
-listOfCommands = ['help']
+listOfCommands = ['help', 'listGenre']
