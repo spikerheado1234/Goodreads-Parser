@@ -7,4 +7,3 @@ class Help(Command):
         print("List of possible commands:")
         for i in range(0, len(listOfCommands)):
             print("%s" %(listOfCommands[i]))
-
